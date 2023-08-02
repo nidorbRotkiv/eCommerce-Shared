@@ -1,7 +1,6 @@
 {
   "name": "ecommerce-shared",
   "version": "0.1.0",
-  "type": "module",
   "license": "MIT",
   "dependencies": {
     "mongodb": "^5.7.0",

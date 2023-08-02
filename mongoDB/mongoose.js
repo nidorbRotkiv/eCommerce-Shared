@@ -1,4 +1,4 @@
-import mongoose from "mongoose";
+const mongoose = require("mongoose");
 
 export async function mongooseConnect() {
   mongoose.connection.readyState === 1
