@@ -11,8 +11,7 @@ const OrderSchema = new Schema(
     email: String,
     phoneNumber: String,
     idNumber: String,
-    paid: Boolean,
-    delivered: Boolean,
+    delivered: { type: Boolean, default: false },
   },
   {
     timestamps: true,
