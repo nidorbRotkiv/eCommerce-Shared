@@ -10,7 +10,8 @@ const productSchema = new Schema(
     properties: { type: Object },
     featured: Boolean,
     inStock: Boolean,
-    variants: [{ type: Object }],
+    variantKey: String,
+    variantValues: [{ type: Object }],
   },
   { timestamps: true }
 );
