@@ -1,3 +1,3 @@
-function returnHej() {
+export default function returnHej() {
   return 'hej'
 }
