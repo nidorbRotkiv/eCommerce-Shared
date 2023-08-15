@@ -7,7 +7,6 @@ const productSchema = new Schema(
     category: { type: mongoose.Types.ObjectId, ref: "Category" },
     properties: { type: Object },
     featured: Boolean,
-    inStock: Boolean,
     variantKey: String,
     variantValues: [{ type: Object }],
     selectedVariant: { type: Object },
